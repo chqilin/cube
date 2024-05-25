@@ -1,16 +1,8 @@
-name = "cube";
-version = "1.0.0";
-cube = "1.0.0";
-build = {
-    type = "static",
-    flags = {""},
-    headers = {
-        "./src"
-    },
-    sources = {
-        "./src"
-    },
-};
-deploy = {
 
+return {
+    name = "lua";
+    version = "5.4.6";
+    cube = "1.0.0";
+
+    dependencies = {};
 };
